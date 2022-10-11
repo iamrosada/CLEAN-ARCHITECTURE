@@ -1,5 +1,17 @@
+import { Navbar } from "@/components";
+import { Home } from "@/pages";
+import "@/App.css";
+import { LayoutContainer } from "@/styled-components";
+
 function App() {
-  return <div className="App">oi</div>;
+  return (
+    <>
+      <Navbar />
+      <LayoutContainer>
+        <Home />
+      </LayoutContainer>
+    </>
+  );
 }
 
 export default App;
