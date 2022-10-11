@@ -6,7 +6,11 @@ Layers interact through facades, so as long as the public APIs are honored, a la
 
 Let's take a look at the following diagram:
 
-![layered_architecture.png](docs/img/layered_architecture.png)
+
+<img width="800" alt="layered_architecture" src="https://user-images.githubusercontent.com/59142372/195159051-b1a72b60-3253-4090-9bcb-c5967034edcc.png">
+
+
+
 
 Layered architecture, a diagram.
 
@@ -50,6 +54,12 @@ The core idea behind CLEAN is putting the business and the business entities at 
 
 We'll describe briefly what each layer does in CLEAN architecture, in order to understand how we can leverage some of these concepts in our React applications.
 
-![diagram.png](docs/img/diagram.png)
+
+
+<img width="800" alt="diagram" src="https://user-images.githubusercontent.com/59142372/195159319-44f42423-0ef9-4638-bfb5-413f91349de3.png">
+
+
+
+
 
 CLEAN architecture, a diagram
