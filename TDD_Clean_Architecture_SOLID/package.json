@@ -10,6 +10,8 @@
   "author": "Luis de Agua Rosada",
   "license": "ISC",
   "devDependencies": {
-    "git-commit-msg-linter": "^4.2.1"
+    "@types/node": "^18.8.5",
+    "git-commit-msg-linter": "^4.2.1",
+    "typescript": "^4.8.4"
   }
 }
