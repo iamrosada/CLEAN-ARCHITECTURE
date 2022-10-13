@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test": "npm test --- --watch",
+    "test": "npm test -- ---findRelatedTests",
+    "test": "npm test -- --coverage"
   },
   "keywords": [],
   "author": "Luis de Agua Rosada",
