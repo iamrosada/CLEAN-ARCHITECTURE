@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
-    "test": "npm test --- --watch",
-    "test": "npm test -- ---findRelatedTests",
-    "test": "npm test -- --coverage"
+    "test:watch": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
   },
   "keywords": [],
   "author": "Luis de Agua Rosada",
