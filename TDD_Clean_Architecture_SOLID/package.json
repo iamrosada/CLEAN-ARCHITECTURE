@@ -13,6 +13,8 @@
   "author": "Luis de Agua Rosada",
   "license": "ISC",
   "devDependencies": {
+    "@types/faker": "^6.6.9",
+    "@types/jest": "^29.1.2",
     "@types/node": "^18.8.5",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "eslint": "^8.25.0",
@@ -21,6 +23,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.0",
     "eslint-plugin-standard": "^5.0.0",
+    "faker": "^6.6.6",
     "git-commit-msg-linter": "^4.2.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
